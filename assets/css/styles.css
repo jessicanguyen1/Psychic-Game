@@ -4,8 +4,9 @@
 
 .title-header {
     color: lightseagreen;
-    padding-top: 50px;
+    padding: 50px 0;
     font-size: 100px;
+    border-bottom: dotted lightpink 35px;
 }
 
 #guesses {
@@ -41,4 +42,6 @@
     background: lightseagreen;
     margin: 50px auto;
     visibility: hidden;
+    position: relative;
+    bottom: 95px;
 }
