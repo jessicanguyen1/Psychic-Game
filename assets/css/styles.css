@@ -3,6 +3,7 @@
 }
 
 .title-header {
+    color: lightseagreen;
     padding-top: 50px;
     font-size: 100px;
 }
@@ -26,9 +27,18 @@
     color: lightseagreen;
 }
 
-.start-button {
+#start-button {
     color: #ffffff;
     width: 300px;
     background: lightseagreen;
     margin: 50px auto;
+    visibility: visible;
+}
+
+#play-again-button {
+    color: #ffffff;
+    width: 300px;
+    background: lightseagreen;
+    margin: 50px auto;
+    visibility: hidden;
 }
