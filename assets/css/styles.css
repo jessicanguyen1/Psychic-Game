@@ -1,0 +1,34 @@
+*, h1, h3, p, body, button {
+    font-family: 'Fredoka One', cursive;
+}
+
+.title-header {
+    padding-top: 50px;
+    font-size: 100px;
+}
+
+#guesses {
+    font-size: 100px;
+}
+
+.guesses-box,
+.wins-box,
+.losses-box {
+ border: dashed 1px pink;
+ padding-top: 50px;
+ padding-bottom: 100px;
+}
+
+.guesses-box p,
+.wins-box p,
+.losses-box p {
+    font-size: 70px;
+    color: lightseagreen;
+}
+
+.start-button {
+    color: #ffffff;
+    width: 300px;
+    background: lightseagreen;
+    margin: 50px auto;
+}
